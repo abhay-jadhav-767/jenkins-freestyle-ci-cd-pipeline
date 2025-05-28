@@ -33,14 +33,14 @@ In the security group, allow inbound traffic on port 8080 (TCP) for Jenkins.
 Step 2: Install Jenkins on EC2
 SSH into your EC2 instance and run:
 #
-*sudo yum update -y
+'sudo yum update -y
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 sudo yum install java-17-amazon-corretto -y
 sudo yum install jenkins -y
 sudo systemctl enable jenkins
 sudo service jenkins start
-sudo service jenkins status*
+sudo service jenkins status'
 
 
 Step 3: Unlock Jenkins
