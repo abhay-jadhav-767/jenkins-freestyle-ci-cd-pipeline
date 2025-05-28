@@ -23,7 +23,7 @@ This project demonstrates a fully automated CI/CD pipeline for a Node.js applica
 
 
 #
-**Setup Guide:**
+## Setup Guide:##
 #
 Step 1: Launch EC2 Instance and Enable Port 8080\
 Create a new EC2 instance (Amazon Linux 2).\
