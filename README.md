@@ -29,7 +29,7 @@ This project demonstrates a fully automated CI/CD pipeline for a Node.js applica
 Step 1: Launch EC2 Instance and Enable Port 8080
 Create a new EC2 instance (Amazon Linux 2).
 In the security group, allow inbound traffic on port 8080 (TCP) for Jenkins.
-
+#
 Step 2: Install Jenkins on EC2
 SSH into your EC2 instance and run:
 
