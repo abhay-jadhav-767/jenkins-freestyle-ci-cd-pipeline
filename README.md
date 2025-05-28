@@ -52,7 +52,7 @@ Create a folder on EC2 (e.g., nodeapp) and a GitHub repository with the same nam
 Configure Git:
 
 ``git config --global user.name "your_github_username"``\
-`` git config --global user.email "your_email@example.com"``\
+``git config --global user.email "your_email@example.com"``\
 ``git init``\
 Pull from the template repo and push to your own:
 
