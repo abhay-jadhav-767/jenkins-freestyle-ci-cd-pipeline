@@ -22,7 +22,6 @@ This project demonstrates a fully automated CI/CD pipeline for a Node.js applica
 4. App is deployed to a live EC2 server
 
 
-#
 ## Setup Guide:
 
 Step 1: Launch EC2 Instance and Enable Port 8080\
