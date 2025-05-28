@@ -41,6 +41,7 @@ SSH into your EC2 instance and run:
   sudo systemctl enable jenkins
   sudo service jenkins start
   sudo service jenkins status
+#
 
 Step 3: Unlock Jenkins
 Open http://<EC2-Public-IP>:8080 in your browser.
