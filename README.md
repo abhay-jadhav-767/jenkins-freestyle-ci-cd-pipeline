@@ -117,7 +117,7 @@ Step 13: Add Test Script\
 In testproject, add another Execute Shell step:
 
 ``npm install``\
-``./node_modules/mocha/bin/_mocha --exit ./test/test.js``
+``./node_modules/mocha/bin/_mocha --exit ./test/test.js``\
 Push changes to index.js and verify that tests run automatically.
 #
 Step 14: Prepare for Deployment
@@ -142,10 +142,10 @@ Build Steps: Execute shell script on remote host via SSH:\
 ``cd /home/ec2-user/nodeapp``\
 ``git pull https://github.com/your_username/nodeapp.git``\
 ``sudo npm install -g pm2``\
-``pm2 reload index.js``
+``pm2 reload index.js``\
 Set Build Trigger to run after testproject is successful.
 
 Step 17: Final Test\
 Push changes to index.js\
-Jenkins should build → test → deploy automatically\
+Jenkins should **build → test → deploy** automatically\
 Deploy to the live server.
