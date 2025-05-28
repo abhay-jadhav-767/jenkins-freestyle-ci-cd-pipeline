@@ -23,12 +23,13 @@ This project demonstrates a fully automated CI/CD pipeline for a Node.js applica
 
 
 #
+Setup Guide:
 #
-Step 1: Launch EC2 Instance and Enable Port 8080
-Create a new EC2 instance (Amazon Linux 2).
+Step 1: Launch EC2 Instance and Enable Port 8080\
+Create a new EC2 instance (Amazon Linux 2).\
 In the security group, allow inbound traffic on port 8080 (TCP) for Jenkins.
 #
-Step 2: Install Jenkins on EC2.
+Step 2: Install Jenkins on EC2.\
 SSH into your EC2 instance and run:
 
 ``sudo yum update -y``\
@@ -38,11 +39,11 @@ SSH into your EC2 instance and run:
 ``sudo yum install jenkins -y``\
 ``sudo systemctl enable jenkins``\
 ``sudo service jenkins start``\
-``sudo service jenkins status``\
+``sudo service jenkins status``
 #
 Step 3: Unlock Jenkins.\
-Open http://<EC2-Public-IP>:8080 in your browser.
-Run the following to get the initial admin password:
+Open http://<EC2-Public-IP>:8080 in your browser.\
+Run the following to get the initial admin password:\
 ``sudo cat /var/lib/jenkins/secrets/initialAdminPassword``\
 Complete the setup and click "Start using Jenkins".
 
